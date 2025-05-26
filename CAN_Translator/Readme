@@ -1,0 +1,8 @@
+The CAN translator takes a message from one CAN address and re-broadcasts it on another.
+
+This was developed for use with a Haltech ECU in the 4th Generation Subaru Liberty. The standard Subaru 3.0 CAN stream has no provision for wheel/vehicle speed inputs. 
+The Haltech CAN stream for G3 WRX has provisions for wheel speed inputs.
+  
+To utilise the Vehicle CAN functionality, this code takes the Liberty CAN wheels speeds and transmits them to the CAN address used by a G3 WRX. 
+
+This device needs 12V Power, Ground, and to be on the Vehicle's CAN bus to function correctly.
